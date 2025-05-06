@@ -3,12 +3,11 @@ import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 const menuOpen = ref(false);
-const showPreviews = ref({}); // Objeto para controlar la visibilidad de cada vista previa
+const showPreviews = ref({}); 
 const router = useRouter();
 
 const toggleMenu = () => {
   menuOpen.value = !menuOpen.value;
-  // Ocultar todas las vistas previas al abrir/cerrar el menú principal
   Object.keys(showPreviews.value).forEach(key => {
     showPreviews.value[key] = false;
   });
@@ -17,7 +16,6 @@ const toggleMenu = () => {
 const navigateTo = (path) => {
   router.push(path);
   menuOpen.value = false;
-  // Ocultar todas las vistas previas al navegar
   Object.keys(showPreviews.value).forEach(key => {
     showPreviews.value[key] = false;
   });

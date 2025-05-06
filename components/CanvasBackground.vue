@@ -66,11 +66,11 @@ const handleResize = () => { // Handle window resize
 
   // Determinar el número de puntos según el ancho
   if (width < config.tabletBreakpoint) {
-      currentNumPoints = config.numPoints.mobile;
+    currentNumPoints = config.numPoints.mobile;
   } else if (width < config.desktopBreakpoint) {
-      currentNumPoints = config.numPoints.tablet;
+    currentNumPoints = config.numPoints.tablet;
   } else {
-      currentNumPoints = config.numPoints.desktop; // Usará el valor actualizado (350)
+    currentNumPoints = config.numPoints.desktop; // Usará el valor actualizado (350)
   }
 
   ctx = c.getContext('2d'); if (!ctx) return console.error("No 2D context");
@@ -99,6 +99,28 @@ onUnmounted(() => { // Cleanup on component unmount
   <canvas ref="canvasRef" class="canvas-background"></canvas> </template>
 
 <style scoped>
-.canvas-background { display: block; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; } /* Basic styling */
+.canvas-background {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  /* Aseguramos que el color de fondo sea siempre el mismo */
+  background-color: #f3f4f6;
+  /* El mismo color que el light-theme background */
+}
+
+/* Estilos para el tema claro (por si acaso se quiere personalizar algo específico del canvas en claro) */
+.light-theme .canvas-background {
+  /* Puedes añadir estilos específicos si es necesario */
+}
+
+/* Estilos para el tema oscuro - ¡Aquí es donde evitamos el cambio de color! */
+.dark-theme .canvas-background {
+  background-color: #f3f4f6 !important;
+  /* Forzamos el color del tema claro */
+}
 </style>
-  

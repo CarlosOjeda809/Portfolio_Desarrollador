@@ -28,7 +28,15 @@
       "image": "https://img.freepik.com/fotos-premium/multitud-personas-banderas-manifestacion-protesta-red-neuronal-generada-ia_76080-49863.jpg",
       "desc": "APP / WEB que permite la creación de foros y manifestaciones a tiempo real. Contiene gestión de usuarios y una interfaz de mensajes para facilitar la comunicación.",
       "tech": ["HTML5", "CSS3", "JavaScript", "Vue", "Nuxt", "TailwindCSS", "Supabase", "Node.js"],
-      "demo": null,
-      "code": null
+      "demo": "https://agora-theta-two.vercel.app",
+      "code": "https://github.com/CarlosOjeda809/AgoraNew"
+    },
+    {
+      "title": "Portfolio",
+      "image": "https://static.resumegiants.com/wp-content/uploads/sites/25/2022/06/09105622/Professional-portfolio-1040x694.webp",
+      "desc": "WEB actual en la que se muestra la interaccion del canvas, rutas y estilos aplicados y uso de Tailwind CSS, además de enlaces de interés",
+      "tech": ["HTML5", "CSS3", "JavaScript", "Vue", "Nuxt", "TailwindCSS", "Node.js"],
+      "demo": "https://vercel.com/carlos-ojedas-projects-3baeb608/portfolio",
+      "code": "https://github.com/CarlosOjeda809/portfolio"
     }
 ]

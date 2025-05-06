@@ -63,6 +63,12 @@ const navigateTo = (path) => {
   console.log(`Navegando a: ${path}`); 
 }
 
+onMounted(() => {
+  document.body.classList.remove('dark-theme');
+
+  document.body.classList.add('light-theme');
+});
+
 </script>
 
 <template>
