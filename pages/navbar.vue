@@ -134,11 +134,11 @@ const handleMouseOut = (path) => {
       <div class="w-full mt-auto pt-6 border-t border-gray-200">
         <div class="flex items-center justify-center space-x-6 mb-4">
           <a href="https://www.linkedin.com/in/carlos-ojeda-tejerina-41061a334/" target="_blank"
-            rel="noopener noreferrer" aria-label="LinkedIn" class="text-gray-300 hover:text-blue-400 transition-colors">
+            rel="noopener noreferrer" aria-label="LinkedIn" class="text-gray-300 hover:text-blue-400 transition-colors duration-500">
             <Icon name="lineicons:linkedin-original" class="w-7 h-7" />
           </a>
           <a href="https://github.com/CarlosOjeda809" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
-            class="text-gray-300 hover:text-white transition-colors">
+            class="text-gray-300 hover:text-white transition-colors duration-500">
             <Icon name="lineicons:github-original" class="w-7 h-7" />
           </a>
         </div>
@@ -154,7 +154,7 @@ const handleMouseOut = (path) => {
   <nav class="fixed top-0 left-0 right-0 z-40 flex bg-gray-200/50 items-center justify-between p-4 sm:p-5"
     >
     <div @click="navigateTo('/')"
-      class="font-semibold text-lg text-gray-500 sm:text-xl cursor-pointer flex flex-col leading-tight">
+      class="font-semibold text-lg text-gray-500 hover:text-gray-700 hover:scale-102 sm:text-xl cursor-pointer flex flex-col leading-tight">
       <p>OJEDA</p>
       <p>CARLOS.com</p>
     </div>

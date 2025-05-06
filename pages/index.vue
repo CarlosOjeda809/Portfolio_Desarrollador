@@ -9,10 +9,10 @@ const direction = ref('right');
 
 
 const sliderImages = ref([
-  { id: 1, image: '/img/fotosindex/pokedexback.png', title: 'POKEDEX', linkUrl: 'https://pokedex-vue-chi-eight.vercel.app' },
-  { id: 2, image: '/img/fotosindex/violin.jpg', title: 'INSTRUMENTS', linkUrl: 'https://instruments-work.vercel.app' },
-  { id: 3, image: '/img/fotosindex/manif.jpg', title: 'AGORA', linkUrl: 'https://github.com/CarlosOjeda809/Series-Project' }, 
-  { id: 4, image: '/img/fotosindex/series.jpg', title: 'SERIES', linkUrl: 'https://github.com/CarlosOjeda809/Series-Project' }  
+  { id: 1, image: '/img/fotosindex/pokedexback.png', title: 'POKEDEX', linkUrl: 'https://pokedex.ojedacarlos.com' },
+  { id: 2, image: '/img/fotosindex/violin.jpg', title: 'INSTRUMENTS', linkUrl: 'https://instruments.ojedacarlos.com' },
+  { id: 3, image: '/img/fotosindex/manif.jpg', title: 'AGORA', linkUrl: 'https://agora.ojedacarlos.com' }, 
+  { id: 4, image: '/img/fotosindex/series.jpg', title: 'SERIES (NO DEMO)', linkUrl: 'https://github.com/CarlosOjeda809/Series-Project' }  
 ]);
 
 const currentImage = ref(sliderImages.value[currentSlide.value].image);
