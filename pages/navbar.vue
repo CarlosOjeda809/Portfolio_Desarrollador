@@ -42,6 +42,8 @@ const handleMouseOut = (path) => {
         </button>
         <div class="mt-16 ml-2 divide-y divide-gray-600 w-[full]">
           <div class="relative">
+
+            <!-- INDEX -->
             <a @click="navigateTo('/')"
               class="block text-white transition duration-500 font-medium hover:-translate-x-2 hover:text-purple-400 cursor-pointer py-3 text-lg"
               @mouseover="handleMouseOver('/')" @mouseout="handleMouseOut('/')">Inicio</a>
@@ -52,6 +54,9 @@ const handleMouseOut = (path) => {
               </div>
             </transition>
           </div>
+
+          <!-- SOBRE MI -->
+
           <div class="relative">
             <a @click="navigateTo('/sobremi')"
               class="block text-white transition duration-500 font-medium hover:-translate-x-2 hover:text-purple-400 cursor-pointer py-3 text-lg"
@@ -64,6 +69,9 @@ const handleMouseOut = (path) => {
               </div>
             </transition>
           </div>
+
+          <!-- SKILLS -->
+          
           <div class="relative">
             <a @click="navigateTo('/skills')"
               class="block text-white transition duration-500 font-medium hover:-translate-x-2 hover:text-purple-400 cursor-pointer py-3 text-lg"
@@ -75,6 +83,9 @@ const handleMouseOut = (path) => {
               </div>
             </transition>
           </div>
+
+          <!-- PROYECTOS -->
+
           <div class="relative">
             <a @click="navigateTo('/proyectos')"
               class="block text-white transition duration-500 font-medium hover:-translate-x-2 hover:text-purple-400 cursor-pointer py-3 text-lg"
@@ -86,6 +97,8 @@ const handleMouseOut = (path) => {
               </div>
             </transition>
           </div>
+
+          <!-- ESTUDIOS Y EXPERIENCIA -->
 
           <div class="relative">
             <a @click="navigateTo('/estudios')"
@@ -99,6 +112,9 @@ const handleMouseOut = (path) => {
               </div>
             </transition>
           </div>
+          
+          <!-- CONTACTO -->
+
           <div class="relative">
             <a @click="navigateTo('/contacto')"
               class="block text-white transition duration-500 hover:-translate-x-2 font-medium hover:text-purple-400 cursor-pointer py-3 text-lg"
@@ -112,6 +128,9 @@ const handleMouseOut = (path) => {
           </div>
         </div>
       </div>
+
+      <!-- PARTE DE ABAJO MENU -->
+
       <div class="w-full mt-auto pt-6 border-t border-gray-200">
         <div class="flex items-center justify-center space-x-6 mb-4">
           <a href="https://www.linkedin.com/in/carlos-ojeda-tejerina-41061a334/" target="_blank"
