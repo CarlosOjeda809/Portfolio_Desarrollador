@@ -1,0 +1,30 @@
+{
+    "title": "BASES DE DATOS",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "icon": "logos:javascript"
+      },
+      {
+        "name": "Java",
+        "icon": "logos:java"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "logos:mongodb"
+      },
+      {
+        "name": "MySQL",
+        "icon": "logos:mysql"
+      },
+      {
+        "name": "Supabase",
+        "icon": "logos:supabase"
+      },
+      {
+        "name": "SQLite",
+        "icon": "logos:sqlite"
+      }
+    ]
+  }
+  

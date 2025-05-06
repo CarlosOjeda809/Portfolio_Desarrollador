@@ -1,0 +1,26 @@
+{
+    "title": "OTRAS TECNOLOGÍAS",
+    "skills": [
+      {
+        "name": "Git",
+        "icon": "logos:git"
+      },
+      {
+        "name": "GitHub",
+        "icon": "logos:github"
+      },
+      {
+        "name": "Vercel",
+        "icon": "logos:vercel"
+      },
+      {
+        "name": "Postman",
+        "icon": "logos:postman"
+      },
+      {
+        "name": "Figma",
+        "icon": "logos:figma"
+      }
+    ]
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "title": "SOFT SKILLS",
+    "skills": [
+      {
+        "image": "https://media.licdn.com/dms/image/v2/D4D12AQFygnH_bkQhoA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1691416156743?e=2147483647&v=beta&t=zt4vo-NKyUgHp-E3pw_22im1XYkg4Qgn-WtMguKTAz0",
+        "desc": "Experiencia en marcos SCRUM y AGILE"
+      },
+      {
+        "image": "https://static.vecteezy.com/system/resources/previews/026/329/078/non_2x/learn-icon-symbol-design-illustration-vector.jpg",
+        "desc": "Aprendizaje autodidacta continuo"
+      },
+      {
+        "image": "https://www.shutterstock.com/image-vector/danger-traffic-sign-flat-icon-600nw-1938289321.jpg",
+        "desc": "Gestión de problemas eficiente y código limpio"
+      }
+    ]
+  }
+  

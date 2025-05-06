@@ -1,0 +1,30 @@
+{
+    "title": "DESARROLLO MÓVIL (ANDROID / iOS)",
+    "skills": [
+      {
+        "name": "Java",
+        "icon": "logos:java"
+      },
+      {
+        "name": "Swift",
+        "icon": "logos:swift"
+      },
+      {
+        "name": "Android Studio",
+        "icon": "devicon:androidstudio"
+      },
+      {
+        "name": "Xcode",
+        "icon": "logos:xcode"
+      },
+      {
+        "name": "Ionic",
+        "icon": "logos:ionic"
+      },
+      {
+        "name": "Firebase",
+        "icon": "logos:firebase"
+      }
+    ]
+  }
+  

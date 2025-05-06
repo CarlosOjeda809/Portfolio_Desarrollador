@@ -1,7 +1,7 @@
 <script setup>
 import Navbar from './pages/navbar.vue'
 import Footer from './pages/footer.vue'
-import CanvasBackground from '~/components/CanvasBackground.vue';
+
 </script>
 
 <template>

@@ -57,8 +57,7 @@ const enviarFormulario = async () => {
 </script>
 
 <template>
-    
-        <main class="container mx-auto py-16 px-8 md:px-16 lg:px-32 xl:p-32">
+        <main class="container mx-auto p-4 md:px-16 lg:px-32 xl:p-4">
             <section
                 class="bg-gray-50/60 border-2 border-gray-400/20 backdrop-blur-lg rounded-3xl shadow-lg p-10 mt-30 relative z-10">
                 <h2 class="text-4xl font-bold text-purple-600 mb-10 text-center">
