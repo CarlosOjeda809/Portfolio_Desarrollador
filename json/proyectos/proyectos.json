@@ -4,7 +4,7 @@
       "image": "/img/fotosindex/pokedexback.png",
       "desc": "Consulta rápida y sencilla de datos Pokémon mediante una API pública. El backend, desarrollado en Node.js, aplica filtrados eficientes para que la interfaz Vue.js, construida con Nuxt, muestre resultados relevantes al instante.",
       "tech": ["HTML5", "CSS3", "JavaScript", "Vue", "Nuxt", "TailwindCSS", "Node.js"],
-      "demo": "https://pokedex-vue-chi-eight.vercel.app",
+      "demo": "https://pokedex.ojedacarlos.com",
       "code": "https://github.com/CarlosOjeda809/PokedexVue"
     },
     {
@@ -12,7 +12,7 @@
       "image": "https://img.freepik.com/fotos-premium/violin_553012-48447.jpg",
       "desc": "Sitio web interactivo con funcionalidades CRUD completas para la administración de datos almacenados en una base de datos. Incorpora un sistema de autenticación de usuarios para un acceso seguro y gestiona eficientemente las llaves foráneas, manteniendo la integridad y las relaciones entre los datos.",
       "tech": ["HTML5", "CSS3", "JavaScript", "Vue", "Nuxt", "TailwindCSS", "Supabase", "Node.js"],
-      "demo": "https://instruments-work.vercel.app",
+      "demo": "https://instruments.ojedacarlos.com",
       "code": "https://github.com/CarlosOjeda809/InstrumentsVue"
     },
     {
@@ -28,7 +28,7 @@
       "image": "https://img.freepik.com/fotos-premium/multitud-personas-banderas-manifestacion-protesta-red-neuronal-generada-ia_76080-49863.jpg",
       "desc": "APP / WEB que permite la creación de foros y manifestaciones a tiempo real. Contiene gestión de usuarios y una interfaz de mensajes para facilitar la comunicación.",
       "tech": ["HTML5", "CSS3", "JavaScript", "Vue", "Nuxt", "TailwindCSS", "Supabase", "Node.js"],
-      "demo": "https://agora-theta-two.vercel.app",
+      "demo": "https://agora.ojedacarlos.com",
       "code": "https://github.com/CarlosOjeda809/AgoraNew"
     },
     {
@@ -36,7 +36,7 @@
       "image": "https://static.resumegiants.com/wp-content/uploads/sites/25/2022/06/09105622/Professional-portfolio-1040x694.webp",
       "desc": "WEB actual en la que se muestra la interaccion del canvas, rutas y estilos aplicados y uso de Tailwind CSS, además de enlaces de interés",
       "tech": ["HTML5", "CSS3", "JavaScript", "Vue", "Nuxt", "TailwindCSS", "Node.js"],
-      "demo": "https://vercel.com/carlos-ojedas-projects-3baeb608/portfolio",
+      "demo": "https://ojedacarlos.com",
       "code": "https://github.com/CarlosOjeda809/portfolio"
     }
 ]
