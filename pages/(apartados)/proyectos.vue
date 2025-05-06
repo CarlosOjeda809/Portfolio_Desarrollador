@@ -18,14 +18,14 @@ import proyectosJSON from '~/json/proyectos/proyectos.json';
           <div class="mt-auto">
             <div class="flex flex-wrap gap-2 mb-3">
               <span v-for="(techItem, techIndex) in project.tech" :key="techIndex"
-                class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-300">
+                class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm hover:scale-103 font-semibold text-gray-300">
                 {{ techItem }}
               </span>
             </div>
             <div class="flex justify-start space-x-2">
               <a v-if="project.demo" :href="project.demo" target="_blank">
                 <button
-                  class="bg-purple-500 cursor-pointer hover:-translate-y-0.5 hover:shadow-xl hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-full text-sm">
+                  class="bg-purple-500 cursor-pointer transition duration-400 hover:-translate-y-0.5 hover:shadow-xl hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-full text-sm">
                   Ver Demo
                 </button>
               </a>
@@ -35,7 +35,7 @@ import proyectosJSON from '~/json/proyectos/proyectos.json';
               </button>
               <a v-if="project.code" :href="project.code" target="_blank">
                 <button
-                  class="bg-gray-700 cursor-pointer hover:bg-gray-600 hover:-translate-y-0.5 hover:shadow-xl text-white font-bold py-2 px-4 rounded-full text-sm">
+                  class="bg-gray-700 cursor-pointer transition duration-400 hover:bg-gray-600 hover:-translate-y-0.5 hover:shadow-xl text-white font-bold py-2 px-4 rounded-full text-sm">
                   Ver Código
                 </button>
               </a>

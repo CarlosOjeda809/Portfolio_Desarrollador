@@ -155,8 +155,8 @@ const handleMouseOut = (path) => {
     >
     <div @click="navigateTo('/')"
       class="font-semibold text-lg text-gray-500 sm:text-xl cursor-pointer flex flex-col leading-tight">
-      <p>CARLOS</p>
-      <p>OJEDA.com</p>
+      <p>OJEDA</p>
+      <p>CARLOS.com</p>
     </div>
     <div class="flex items-center space-x-3 sm:space-x-4 ">
       <a href="/cv_carlos.pdf" download title="Descargar CV"

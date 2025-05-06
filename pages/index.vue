@@ -58,10 +58,6 @@ const goToSlide = (index) => {
   changeSlide(index);
 }
 
-const navigateTo = (path) => {
-
-  console.log(`Navegando a: ${path}`); 
-}
 
 onMounted(() => {
   document.body.classList.remove('dark-theme');
