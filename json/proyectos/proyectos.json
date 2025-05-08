@@ -3,7 +3,7 @@
       "title": "Pokedex",
       "image": "/img/fotosindex/pokedexback.png",
       "desc": "Consulta rápida y sencilla de datos Pokémon mediante una API pública. El backend, desarrollado en Node.js, aplica filtrados eficientes para que la interfaz Vue.js, construida con Nuxt, muestre resultados relevantes al instante.",
-      "tech": ["HTML5", "CSS3", "JavaScript", "Vue", "Nuxt", "TailwindCSS", "Node.js"],
+      "tech": ["HTML5", "CSS3", "JavaScript", "TypeScript", "Vue", "Nuxt", "TailwindCSS", "Node.js"],
       "demo": "https://pokedex.ojedacarlos.com",
       "code": "https://github.com/CarlosOjeda809/PokedexVue"
     },
@@ -11,7 +11,7 @@
       "title": "Instruments",
       "image": "https://img.freepik.com/fotos-premium/violin_553012-48447.jpg",
       "desc": "Sitio web interactivo con funcionalidades CRUD completas para la administración de datos almacenados en una base de datos. Incorpora un sistema de autenticación de usuarios para un acceso seguro y gestiona eficientemente las llaves foráneas, manteniendo la integridad y las relaciones entre los datos.",
-      "tech": ["HTML5", "CSS3", "JavaScript", "Vue", "Nuxt", "TailwindCSS", "Supabase", "Node.js"],
+      "tech": ["HTML5", "CSS3", "JavaScript", "TypeScript", "Vue", "Nuxt", "TailwindCSS", "Supabase", "Node.js"],
       "demo": "https://instruments.ojedacarlos.com",
       "code": "https://github.com/CarlosOjeda809/InstrumentsVue"
     },
@@ -19,7 +19,7 @@
       "title": "Series",
       "image": "https://imagenes.noticiasrcn.com/cms/2024/09/07160917/series-fav.webp?w=480",
       "desc": "Web de sistema CRUD conectada a una base de datos realizada en MongoDB, que permite gestionar los datos y mostrarlos en directo. Al modificar la API, la app de Ionic también actualiza la información al instante pues recibe datos de esta.",
-      "tech": ["HTML5", "CSS3", "JavaScript", "Ionic", "Angular", "MongoDB", "Webstorm", "Bootstrap", "NestJS"],
+      "tech": ["HTML5", "CSS3", "JavaScript", "TypeScript", "Ionic", "Angular", "MongoDB", "Webstorm", "Bootstrap", "NestJS"],
       "demo": null,
       "code": "https://github.com/CarlosOjeda809/Series-Project"
     },
@@ -27,15 +27,23 @@
       "title": "Agora",
       "image": "https://img.freepik.com/fotos-premium/multitud-personas-banderas-manifestacion-protesta-red-neuronal-generada-ia_76080-49863.jpg",
       "desc": "APP / WEB que permite la creación de foros y manifestaciones a tiempo real. Contiene gestión de usuarios y una interfaz de mensajes para facilitar la comunicación.",
-      "tech": ["HTML5", "CSS3", "JavaScript", "Vue", "Nuxt", "TailwindCSS", "Supabase", "Node.js"],
+      "tech": ["HTML5", "CSS3", "JavaScript", "TypeScript", "Vue", "Nuxt", "TailwindCSS", "Supabase", "Node.js"],
       "demo": "https://agora.ojedacarlos.com",
       "code": "https://github.com/CarlosOjeda809/AgoraNew"
+    },
+    {
+      "title": "Upload It",
+      "image": "https://kinsta.com/es/wp-content/uploads/sites/8/2021/02/archivos-wordpress-1024x512.jpg",
+      "desc": "WEB que permite la subida de archivos (documentos, audios, imágenes, videos, etc) y la gestión de estos en una sola web. Pudiendo descargarlo cuando se quiera hacerlo.",
+      "tech": ["HTML5", "CSS3", "JavaScript", "TypeScript", "Vue", "Nuxt", "TailwindCSS", "Supabase", "Node.js"],
+      "demo": "https://uploadit.ojedacarlos.com",
+      "code": "https://github.com/CarlosOjeda809/storagenew"
     },
     {
       "title": "Portfolio",
       "image": "https://static.resumegiants.com/wp-content/uploads/sites/25/2022/06/09105622/Professional-portfolio-1040x694.webp",
       "desc": "WEB actual en la que se muestra la interaccion del canvas, rutas y estilos aplicados y uso de Tailwind CSS, además de enlaces de interés",
-      "tech": ["HTML5", "CSS3", "JavaScript", "Vue", "Nuxt", "TailwindCSS", "Node.js"],
+      "tech": ["HTML5", "CSS3", "JavaScript", "TypeScript", "Vue", "Nuxt", "TailwindCSS", "Node.js"],
       "demo": "https://ojedacarlos.com",
       "code": "https://github.com/CarlosOjeda809/portfolio"
     }

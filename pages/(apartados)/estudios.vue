@@ -3,12 +3,7 @@
 </script>
 
 <template>
-    <div class="flex flex-col min-h-screen relative text-gray-300 font-sans leading-normal tracking-normal overflow-hidden"
-        >
-        
-        
-
-
+    <div class="flex flex-col min-h-screen relative text-gray-300 font-sans leading-normal tracking-normal overflow-hidden">
         <main class="container mx-auto py-10 px-6 md:px-12 lg:px-24 xl:px-32">
             <section class="mb-12">
                 <h2 class="text-5xl font-bold text-gray-800 mt-20 mb-6 text-center">
@@ -26,9 +21,7 @@
                             <h4 class="text-lg font-semibold text-purple-300 mb-2">CFGS DAM</h4>
 
                             <p class="text-sm text-gray-300 cursor-pointer mb-1">
-                                Progresa Formación - Centro de FP
-                            </p>
-
+                                Progresa Formación - Centro de FP</p>
                             <p class="text-xs text-gray-400">
                                 Septiembre 2023 - Junio 2025
                             </p>
