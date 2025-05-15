@@ -46,5 +46,13 @@
       "tech": ["HTML5", "CSS3", "JavaScript", "TypeScript", "Vue", "Nuxt", "TailwindCSS", "Node.js"],
       "demo": "https://ojedacarlos.com",
       "code": "https://github.com/CarlosOjeda809/portfolio"
+    },
+    {
+      "title": "Locations",
+      "image": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2024/04/como-poner-pin-google-maps-guardar-localizar-lugares-interes-3305062.jpg?tf=3840x",
+      "desc": "WEB que te permite interactuar con un mapa usando de base Leaflet, en este se pueden  buscar lugares en concreto, crear nuevos puntos o eliminar los ya existentes",
+      "tech": ["HTML5", "CSS3", "JavaScript", "TypeScript", "Vue", "Nuxt", "TailwindCSS", "Leaflet", "Google Cloud Console", "Node.js"],
+      "demo": "https://locations.ojedacarlos.com",
+      "code": "https://github.com/CarlosOjeda809/location"
     }
 ]

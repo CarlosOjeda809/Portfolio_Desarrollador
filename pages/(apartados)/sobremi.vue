@@ -23,17 +23,18 @@ const toggleMenu = () => {
 
       <p class="text-lg sm:text-xl mb-10 text-gray-500 leading-relaxed text-center">
         Comencé mi viaje en el desarrollo hace 2 años, y desde entonces he estado constantemente aprendiendo
-        y mejorando mis habilidades. Me especializo en varias <span class="text-purple-800 font-semibold">tecnologías
-          frontend</span> como <span class="font-bold">Vue.js, React o
-          Angular</span>. También tengo <span class="text-purple-800 font-semibold">experiencia en backend</span> con
-        frameworks como <span class="font-bold">Node.js o Express</span>, junto a <span
-          class="text-purple-800 font-semibold">bases
-          de datos</span> como <span class="font-bold">MongoDB, MySQL o Supabase.</span>
+        y mejorando mis habilidades. Me especializo en varias
+        <span cla  ss="text-purple-800 font-semibold">tecnologías frontend</span> como
+        <span class="font-bold">Vue.js, React o Angular</span>. También tengo
+        <span class="text-purple-800 font-semibold">experiencia en backend</span> con frameworks como
+        <span class="font-bold">Node.js o Express</span>, junto a
+        <span class="text-purple-800 font-semibold">bases de datos</span> como
+        <span class="font-bold">MongoDB, MySQL o Supabase</span>.
         Actualmente, estoy buscando una oportunidad para aplicar mis conocimientos y crecer profesionalmente
         en un entorno dinámico y colaborativo sin objetivos salariales.
       </p>
 
-      <hr class="border-gray-400/30 mb-8 w-full">
+      <hr class="border-gray-400/30 mb-8 w-full" />
 
       <div class="flex items-center justify-center space-x-4 sm:space-x-6 w-full">
         <a href="https://www.linkedin.com/in/carlos-ojeda-tejerina-41061a334/" target="_blank" rel="noopener noreferrer"
@@ -46,7 +47,7 @@ const toggleMenu = () => {
         </a>
         <a href="https://x.com/PlayerCot" target="_blank" aria-label="Twitter/X"
           class="text-gray-500 hover:text-black transition-colors duration-500">
-          <Icon name="fa6-brands:x-twitter" class="w-7 h-7"></Icon>
+          <Icon name="fa6-brands:x-twitter" class="w-7 h-7" />
         </a>
       </div>
     </div>

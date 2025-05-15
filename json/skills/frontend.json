@@ -38,6 +38,10 @@
             "icon": "logos:nextjs"
         },
         {
+            "name": "Leaflet",
+            "icon": "logos:leaflet"
+        },
+        {
             "name": "Bootstrap",
             "icon": "logos:bootstrap"
         }
